@@ -1,7 +1,7 @@
-Icinga dashboard for Dashing
-============================
+NETWAYS dashboard with Dashing
+==============================
 
-This is a example dashboard for Icinga based on the Dashing framework.
+This is a example dashboard based on the Dashing framework.
 
 <a href="screenshot.png"><img src="screenshot.png" style="width: 300px;" alt="Screenshot"/></a>
 
