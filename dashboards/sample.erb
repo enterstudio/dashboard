@@ -1,14 +1,14 @@
 <script type='text/javascript'>
 $(function() {
-  Dashing.widget_base_dimensions = [370, 340]
-  Dashing.numColumns = 5
+  Dashing.widget_base_dimensions = [310, 245]
+  Dashing.numColumns = 6
 });
 </script>
 
 <% content_for :title do %>Icinga dashboard<% end %>
 <div class="gridster">
   <ul>
-    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-view="Image" data-image="/icinga_logo4.png" style="background: lightgrey;"></div>
     </li>
 
@@ -17,12 +17,7 @@ $(function() {
       <i class="icon-twitter icon-background"></i>
     </li>
 
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-view="Clock"></div>
-      <i class="icon-time icon-background"></i>
-    </li>
-
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="icinga-hosts" data-view="Simplemon" data-title="Icinga hosts"></div>
     </li>
 
@@ -38,4 +33,16 @@ $(function() {
       <div data-id="icinga-services" data-view="Simplemon" data-title="Icinga services"></div>
     </li>
 
+    <li data-row="4" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="blank1" data-view="Simplemon" data-title="blank"></div>
+    </li>
+
+    <li data-row="4" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="blank2" data-view="Simplemon" data-title="blank"></div>
+    </li>
+
+</div>
+
+<div class="band">
+      <div data-view="Band"></div>
 </div>
